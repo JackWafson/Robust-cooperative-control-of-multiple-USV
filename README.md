@@ -1,16 +1,18 @@
 # Robust-cooperative-control-of-multiple-USV
-enjun liu  
+Enjun Liu  
+liuenjun_1010@163.com  
 ## 协同编队策略  
-
 基于领导跟随架构的USV集群编队，优化通信约束问题  
 设领导者轨迹满足  
 $$\dot{\eta}_0=K\eta+b$$
-则如下分布式状态观测器可保证跟随者得到渐进收敛于领导者轨迹$\eta$的参考轨迹$\eta_0$  
-$$f(x)=\left\{\begin{align}
+则如下分布式状态观测器可保证跟随者得到渐进收敛于领导者轨迹$`\eta`$的参考轨迹$`\eta_0`$  
+$$
+f(x)=\left\{\begin{align}
   1,x>0\\
   0,x=0\\
   -1,x<0
-\end{align}\right.$$
+\end{align}\right.
+$$
 
 distributed track.py 改进领导跟随法编队策略仿真
 
