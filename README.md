@@ -1,9 +1,9 @@
-# Robust-cooperative-control-of-multiple-USV
-$`\color{aqua}{Enjun\quad Liu}`$  
+# $`\textbf{Robust cooperative control of multiple USV}`$
+$`\color{aqua}{EnjunLiu}`$  
 $`\color{lime}{liuenjun\_1010@163.com}`$  
 ## 协同编队策略  
-基于领导跟随架构的USV集群编队，优化通信约束问题  
-设USV集群中有N个单体，包括1个领导者和N-1个跟随者  
+基于领导跟随架构的$`\mathrm{USV}`$集群编队，优化通信约束问题  
+设$`\mathrm{USV}`$集群中有$`N`$个单体，包括$`1`$个领导者和$`N-1`$个跟随者  
 集群通信拓扑图$`\mathcal{G}`$的邻接矩阵$`\mathcal{A}=[a _{ij}]`$  
 领导者轨迹满足  
 $$\dot{\eta}_0=K\eta+b$$
