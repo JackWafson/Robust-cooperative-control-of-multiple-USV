@@ -6,7 +6,7 @@ $`\color{green}{liuenjun\_1010@163.com}`$
 设领导者轨迹满足  
 $$\dot{\eta}_0=K\eta+b$$
 则如下分布式状态观测器可保证跟随者得到渐进收敛于领导者轨迹$`\eta`$的参考轨迹$`\eta_0`$  
-$$\dot{\hat{\eta}}_i=K\hat{\eta}_i+b+k\sum \nolimits ^1 _2$$  
+$$\dot{\hat{\eta}}_i=K\hat{\eta}_i+b+k\sum \limits ^{N-1} _{j=1}$$  
 distributed track.py 改进领导跟随法编队策略仿真  
 $`\sum \nolimits ^1 _2`$
 
