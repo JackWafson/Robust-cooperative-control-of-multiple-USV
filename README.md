@@ -11,6 +11,7 @@ $$\dot{\hat{\eta}}_i=K\hat{\eta}_i+b+k[{\sum}_{j=1}^{N-1}a_{ij}$$
 (\hat{\eta}_i-\hat{\eta}_j)+a_{i0}(\hat{\eta}_i-\eta_0)]$$
 
 distributed track.py 改进领导跟随法编队策略仿真
+$$\sum_{i=1}^{n}$$
 
 
 ## 轨迹跟踪控制  
