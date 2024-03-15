@@ -4,11 +4,11 @@ $`\color{green}{liuenjun\_1010@163.com}`$
 ## 协同编队策略  
 基于领导跟随架构的USV集群编队，优化通信约束问题  
 设领导者轨迹满足  
-$$\dot{\eta}_0=K\eta+b$$
+$$`\dot{\eta}_0=K\eta+b`$$
 则如下分布式状态观测器可保证跟随者得到渐进收敛于领导者轨迹$`\eta`$的参考轨迹$`\eta_0`$  
-$$\dot{\hat{\eta}}_i=K\hat{\eta}_i+b+k\sum$$  
+$$`\dot{\hat{\eta}}_i=K\hat{\eta}_i+b+k\sum`$$  
 distributed track.py 改进领导跟随法编队策略仿真
-$$\sum_{i}$$
+$`\sum ^1 _2`$
 
 ## 轨迹跟踪控制  
 USV运动学与动力学公式：  
