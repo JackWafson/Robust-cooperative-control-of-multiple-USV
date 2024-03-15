@@ -1,4 +1,7 @@
 # Robust-cooperative-control-of-multiple-USV
 enjun liu
-USV.py
-$\tau$
+
+distributed track.py 改进领导跟随法编队策略仿真
+
+USV运动学与动力学公式：
+$\dot{\eta}=J(\eta)(\upsilon)$
