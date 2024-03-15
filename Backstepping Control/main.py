@@ -18,9 +18,6 @@ matplotlib.rcParams['font.family'] = 'Times New Roman'
 # 设置公式字体样式为 stix
 plt.rcParams["mathtext.fontset"]="stix"
 
-font_TimesNewsman = FontProperties(family='Times New Roman', size =8)
-
-
 """
 渲染设置
 """
@@ -92,7 +89,6 @@ env.reset()
 env_1.reset()
 env_2.reset()
 env_3.reset()
-
 env_r.reset()
 
 # w计算参数初始化
