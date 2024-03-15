@@ -7,7 +7,7 @@ Enjun Liu
 集群通信拓扑图$`\mathcal{G}`$的邻接矩阵$`\mathcal{A}=[a _{ij}]`$  
 领导者轨迹满足  
 $$\dot{\eta}_0=K\eta+b$$
-如下分布式状态观测器可保证跟随者得到渐进收敛于领导者轨迹$`\eta`$的参考轨迹$`\eta_0`$，即$` \lim _{t\rightarrow\infty} \hat{\eta}_i = \eta_0`$  
+如下分布式状态观测器可保证跟随者得到渐进收敛于领导者轨迹$`\eta`$的参考轨迹$`\eta_0`$，即$` \lim \limits _{t\rightarrow\infty} \hat{\eta}_i = \eta_0`$  
 $$\dot{\hat{\eta}}_i=K\hat{\eta}_i+b+k[\sum \limits ^{N-1} _{j=1} a _{ij} (\hat{\eta}_i-\hat{\eta}_j)+a _{i0}(\hat{\eta}_i-\eta_0)]$$  
 
 distributed track.py 领导跟随法编队策略仿真  
